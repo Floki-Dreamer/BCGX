@@ -52,7 +52,7 @@ We generate and train a prediction model using a random forest to predict custom
   - Performance of a classification model
 
     -  Overall model performance
-      Accuracy: The model has an overall accuracy of 90%, meaning it correctly classifies 90% of the samples in the test set. However, high precision can be              misleading due to class imbalance (many more customers do not churn than churn).
+      .Accuracy: The model has an overall accuracy of 90%, meaning it correctly classifies 90% of the samples in the test set. However, high precision can be              misleading due to class imbalance (many more customers do not churn than churn).
     -  Class 0 (customers who DO NOT abandon)
       Precision: 0.90, i.e. 90% of "non-churn" predictions are correct.
       Recall: 1.00, which means the model correctly identifies all non-churning customers.
@@ -64,7 +64,7 @@ We generate and train a prediction model using a random forest to predict custom
     -   Identified problems
        Class imbalance: There is a large imbalance in the data (3286 in class 0 and only 366 in class 1). This causes the model to be biased towards the majority          class (customers who do not churn).
        Poor recovery for class 1: The model is unable to correctly capture churning customers (recall of 0.05), which makes it little useful for predicting churn,         which is the main objective.
-    -   ossible solutions
+    -   Possible solutions
         To improve the performance of the model in the minority class (churning customers):
 
 Collecting more data: If possible, include more examples of customers who drop out to balance classes.
