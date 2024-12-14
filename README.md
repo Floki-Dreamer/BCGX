@@ -15,9 +15,6 @@ The main challenge PowerCo faces is customer churn—clients leaving in search o
 
 - Modeling and evaluation: Can we use this dataset to make accurate predictions? If so, are they reliable?
 
-- Insights and recommendations: How can we communicate the value of these predictions by explaining them in a way that matters to the business?
-
-
 
 
 Overview
