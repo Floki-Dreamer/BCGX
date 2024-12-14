@@ -52,7 +52,7 @@ We generate and train a prediction model using a random forest to predict custom
   - Performance of a classification model
 
     -  Overall model performance
-      .Accuracy: The model has an overall accuracy of 90%, meaning it correctly classifies 90% of the samples in the test set. However, high precision can be              misleading due to class imbalance (many more customers do not churn than churn).
+    -    Accuracy: The model has an overall accuracy of 90%, meaning it correctly classifies 90% of the samples in the test set. However, high precision can be              misleading due to class imbalance (many more customers do not churn than churn).
     -  Class 0 (customers who DO NOT abandon)
       Precision: 0.90, i.e. 90% of "non-churn" predictions are correct.
       Recall: 1.00, which means the model correctly identifies all non-churning customers.
