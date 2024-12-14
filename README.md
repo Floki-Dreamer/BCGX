@@ -1,5 +1,25 @@
 # DATA SCIENCE JOB SIMULATION BCG X
 
+I completed an 8-hour professional simulation for BCG X, where the focus was on addressing the needs of PowerCo, a leading provider of gas and electricity services for small and medium-sized businesses.
+
+The main challenge PowerCo faces is customer churn—clients leaving in search of better offers from other energy providers. They have partnered with BCG to identify the underlying reasons why their customers are discontinuing their services.
+
+
+## Use a 5-Step Methodology in Data Science to Tackle the Job:
+
+- Business understanding and problem formulation: What is the context of this problem and why are they trying to solve it?
+
+- Exploratory data analysis and data cleaning: What data are we working with, what is it like, and how can we improve it?
+
+- Feature engineering: Can we enrich this dataset using our own expertise or third-party information?
+
+- Modeling and evaluation: Can we use this dataset to make accurate predictions? If so, are they reliable?
+
+- Insights and recommendations: How can we communicate the value of these predictions by explaining them in a way that matters to the business?
+
+
+
+
 Overview
 In this professional simulation, three Jupyter notebooks were developed to showcase the results:
 
