@@ -58,14 +58,14 @@ We generate and train a prediction model using a random forest to predict custom
       -  Recall: 1.00, which means the model correctly identifies all non-churning customers.
       -  F1-Score: 0.95, indicating an excellent balance between precision and recall for this class.
     - Class 1 (customers who DO abandon)
-      Precision: 0.71, 71% of "abandonment" predictions are correct.
-      Recall: 0.05, indicating that the model only correctly identifies 5% of customers who actually abandon.
-      F1-Score: 0.10, reflecting poor overall performance in this class.
+      -  Precision: 0.71, 71% of "abandonment" predictions are correct.
+      -  Recall: 0.05, indicating that the model only correctly identifies 5% of customers who actually abandon.
+      -  F1-Score: 0.10, reflecting poor overall performance in this class.
     - Identified problems
-       Class imbalance: There is a large imbalance in the data (3286 in class 0 and only 366 in class 1). This causes the model to be biased towards the majority          class (customers who do not churn).
-       Poor recovery for class 1: The model is unable to correctly capture churning customers (recall of 0.05), which makes it little useful for predicting churn,         which is the main objective.
-    -   Possible solutions
-        To improve the performance of the model in the minority class (churning customers):
+      -  Class imbalance: There is a large imbalance in the data (3286 in class 0 and only 366 in class 1). This causes the model to be biased towards the majority          class (customers who do not churn).
+      -  Poor recovery for class 1: The model is unable to correctly capture churning customers (recall of 0.05), which makes it little useful for predicting churn,         which is the main objective.
+    - Possible solutions
+      -  To improve the performance of the model in the minority class (churning customers):
 
 Collecting more data: If possible, include more examples of customers who drop out to balance classes.
 
