@@ -20,4 +20,12 @@ In this notebook, we applied feature engineering to create new columns aimed at 
 ## 3er Cuaderno: model_predictions
 Generamos y entrenamos un modelo de predicción utilizando un bosque aleatorio para predecir la rotación de clientes.
 
+## Python Libraries Used:
+
+- Pandas: To read, clean and transform structured data
+- Scikit-learn: We use this library to create and train models such as random forests or logistic regression.
+- Numpy: For mathematical operations and array manipulation.
+- Matplotlib: For data visualization.
+- Seaborn: For advanced data visualization.
+
 ## This project demonstrates the use of data analysis, feature engineering, and machine learning techniques to enhance customer retention prediction.
