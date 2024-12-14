@@ -18,7 +18,7 @@ The client proposed the following idea:
 In this notebook, we applied feature engineering to create new columns aimed at improving churn prediction accuracy.
 
 ## 3er Cuaderno: model_predictions
-Generamos y entrenamos un modelo de predicción utilizando un bosque aleatorio para predecir la rotación de clientes.
+We generate and train a prediction model using a random forest to predict customer churn.
 
 ## Python Libraries Used:
 
